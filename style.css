@@ -1,0 +1,114 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: linear-gradient(to right top, #051937, #54385c, #9c5d73, #d78f83, #ffcc99);
+    font-family: "Montserrat", normal;
+    color: white;
+}
+
+.site-navigation
+{
+    display: flex;
+    padding: 10px 6px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation
+{
+    display: inline-flex;
+    
+    margin: 4px;    
+
+ }
+
+.navigation li
+{
+    display: inline-block;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px; 
+    
+    border-radius: 40px;
+    
+    font-size: 30px;
+}
+
+.site-title
+{
+    display: flex; 
+    justify-content: center;
+
+    margin-bottom: -40px;
+
+    
+    text-shadow:5px 2px 4px gray;
+    font-size:  40px;
+    font-weight: 400; 
+}
+
+.block-info-about-me
+{
+    justify-content: center;
+
+    margin: auto;
+    padding-top:    0%;
+    padding-bottom: 0%;
+    padding-left:   7%;
+    padding-right:  7%; 
+
+    border-radius: 50px;
+
+    font-size: 35px;
+    font-style: normal; 
+}
+
+.link
+{
+    color: white;
+    text-align: center;
+
+}
+/*             font and icons                */
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined
+{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 900 
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+a:active
+{
+    text-decoration: none;
+}
