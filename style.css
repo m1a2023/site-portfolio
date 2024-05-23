@@ -17,27 +17,30 @@ body
 
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 0%;
 }
 
 .navigation
 {
     display: inline-flex;
-    
-    margin: 4px;    
-
- }
+    justify-content: center; 
+    width: 51%; 
+}
 
 .navigation li
 {
     display: inline-block;
     
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px; 
+    margin-left: 12%;
+    margin-right: 12%;
     
-    border-radius: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
-    font-size: 30px;
+    font-size: 10px;
 }
 
 .site-title
@@ -45,39 +48,60 @@ body
     display: flex; 
     justify-content: center;
 
-    margin-bottom: -40px;
-
+    margin-bottom: 3%;
     
     text-shadow:5px 2px 4px gray;
-    font-size:  40px;
+    font-size:  22px;
     font-weight: 400; 
 }
 
 .block-info-about-me
 {
+    display: block;
     justify-content: center;
 
     margin: auto;
-    padding-top:    0%;
-    padding-bottom: 0%;
-    padding-left:   7%;
-    padding-right:  7%; 
 
-    border-radius: 50px;
+    padding-top:    2%;
+    padding-bottom: 2%;
+    padding-left:   6%;
+    padding-right:  6%; 
+    border-radius:  50px;
+    width: 60%;
 
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal; 
+
+    background-color: rgba(255, 255, 255, 0.18);
 }
 
 .link
 {
     color: white;
-    text-align: center;
-
+    width: 100%
 }
-/*             font and icons                */
 
-.montserrat-font {
+.icon-social
+{
+    width: 20%;
+}
+
+.name-social
+{
+    width: 10%;
+    justify-content: center;
+}
+
+.my-social-link
+{
+    display: flex;    
+    width: 300px;
+}
+
+
+/*             font and icons                */
+.montserrat-font 
+{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
